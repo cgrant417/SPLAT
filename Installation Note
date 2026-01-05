@@ -1,0 +1,10 @@
+On Debian/Ubuntu Use:
+
+>sudo apt install splat
+
+Map files for Southern Ontaio have already been converted from government sources to sdf files. 
+They need to be extracted within the /maps folder
+
+A sample run is included in the /Site directory using the "profile" command that can be modified as needed. 
+
+See .lrp and .qth files for site information

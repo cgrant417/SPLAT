@@ -1,0 +1,10 @@
+15.000  ; Earth Dielectric Constant (Relative permittivity)
+0.005   ; Earth Conductivity (Siemens per meter)
+301.000 ; Atmospheric Bending Constant (N-units)
+5800.000 ; Frequency in MHz (20 MHz to 20 GHz)
+5       ; Radio Climate (5 = Continental Temperate)
+1       ; Polarization (0 = Horizontal, 1 = Vertical)
+0.99    ; Fraction of situations (50% of locations)
+0.99    ; Fraction of time (90% of the time)
+609537  ; Effective Radiated Power (ERP) in Watts (optional) 30dBm + 30dBi = 60dBd (EIRP) = 57.85 dbm (ERP) = 609.5W
+        ; including rx gain of 30dBi (yes, dBi for rx) ERP=30dbm + 27.85 dBd + 30 dBi = 87.85dBm ERP = 609536.9W

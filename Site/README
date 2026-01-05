@@ -1,0 +1,4 @@
+
+Splat assumes the ERP is specified in the .lrp file and applies the +2.15dB internally to convert to EIRP to be compatable with the Friis formula which uses an isotropic reference. 
+
+Splat does not have a spot for receive antenna gain since it is primarily calculating signal strength at the receive location and expecting the receiver gain to be included in the receive sensitivity by manual offset, etc. As a bit of a cheat, it can be included in the Tx ERP but it must be in dBi since it does no offset for the receiver. 

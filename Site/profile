@@ -1,0 +1,3 @@
+#! /bin/bash
+splat-hd -t txsite -r rxsite -d ../maps -p gndprof.png -metric
+splat-hd -metric -t txsite -r rxsite -m 1.3333 -d ../maps -gc 10 -H pathprof.png -log logfile.txt
